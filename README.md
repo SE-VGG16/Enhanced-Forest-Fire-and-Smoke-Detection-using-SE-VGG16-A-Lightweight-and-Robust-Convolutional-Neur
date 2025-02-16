@@ -1,4 +1,6 @@
-🔥 Enhanced Forest Fire and Smoke Detection using SE-VGG16: A Lightweight and Robust Convolutional Neural Network  
+# 🔥 Enhanced Forest Fire and Smoke Detection using SE-VGG16: A Lightweight and Robust Convolutional Neural Network  
+
+## 📢 Our paper is currently under submission, and detailed data information will be made public after its publication  
 
 ---
 
@@ -12,14 +14,12 @@ SE-VGG16 is a deep learning-based model that enhances **VGG16** with **Squeeze-a
 
 📄 **Paper:** [Coming Soon]  
 📂 **Dataset:** [Kaggle Forest Fire Dataset](https://www.kaggle.com/datasets/mohnishsaiprasad/forest-fire-images)  
-
+📁 **Pretrained Weights:** [Download Best Model](https://github.com/SE-VGG16/weights/)  
 
 ---
 
 ## 🏗 Architecture  
 SE-VGG16 is based on **VGG16**, modified with **Squeeze-and-Excitation Blocks (SEBlocks)** to enhance feature recalibration:  
-
-
 
 ✔ **Feature recalibration with SEBlocks**  
 ✔ **Improved small-scale fire detection**  
@@ -30,15 +30,15 @@ SE-VGG16 is based on **VGG16**, modified with **Squeeze-and-Excitation Blocks (S
 ## 🛠 Installation  
 
 ### Clone the repository  
-\`\`\`bash
+```bash
 git clone https://github.com/SE-VGG16/SE-VGG16-A-High-Performance-Model-for-Forest-Fire-and-Smoke-Detection.git
 cd SE-VGG16
-\`\`\`
+```
 
 ### Install dependencies  
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 SE-VGG16 is trained on a **fire/non-fire classification dataset**. Follow these steps:  
 1. **Download Dataset**: [Kaggle Dataset](https://www.kaggle.com/datasets/mohnishsaiprasad/forest-fire-images)  
 2. **Organize Data:**  
-\`\`\`
+```
 dataset/
   ├── train/
   │   ├── fire/
@@ -57,19 +57,19 @@ dataset/
   ├── test/
       ├── fire/
       ├── non-fire/
-\`\`\`
+```
 3. **Preprocess the Dataset**  
-\`\`\`bash
+```bash
 python dataset_preprocessing.py --input dataset/ --output processed_data/
-\`\`\`
+```
 
 ---
 
 ## 🎯 Training  
 Run the following command to **train SE-VGG16**:  
-\`\`\`bash
+```bash
 python train.py --epochs 10 --batch-size 32 --lr 0.001 --save-path best_model.pth
-\`\`\`
+```
 ✔ Uses **Cross-Entropy Loss**  
 ✔ Optimized with **Adam Optimizer**  
 ✔ Supports **GPU acceleration**  
@@ -78,9 +78,9 @@ python train.py --epochs 10 --batch-size 32 --lr 0.001 --save-path best_model.pt
 
 ## 📊 Evaluation  
 Evaluate the trained model using the test dataset:  
-\`\`\`bash
+```bash
 python evaluate.py --model best_model.pth --data test/
-\`\`\`
+```
 ✔ **Accuracy, Precision, Recall, F1-Score**  
 ✔ Generates a **detailed classification report**  
 
@@ -88,9 +88,9 @@ python evaluate.py --model best_model.pth --data test/
 
 ## 🧪 Testing & Inference  
 Test the model on a **single image**:  
-\`\`\`bash
+```bash
 python test.py --model best_model.pth --image sample.jpg
-\`\`\`
+```
 ✔ Output: `"🔥 Fire Detected"` or `"✅ Normal"`  
 
 ---
@@ -116,27 +116,27 @@ Pre-trained SE-VGG16 models are available:
 
 ## 💾 Saving & Loading the Model  
 Save the trained model:  
-\`\`\`python
+```python
 torch.save(model.state_dict(), "best_model.pth")
-\`\`\`
+```
 Load the trained model for inference:  
-\`\`\`python
+```python
 model.load_state_dict(torch.load("best_model.pth"))
-\`\`\`
+```
 
 ---
 
 ## 📝 Citation  
 If you use **SE-VGG16** in your research, please cite:  
 📄 **Enhanced Forest Fire and Smoke Detection using SE-VGG16**  
-\`\`\`bibtex
+```bibtex
 @article{SE-VGG16,
   title={Enhanced Forest Fire and Smoke Detection using SE-VGG16},
   author={Akmalbek Abdusalomov, Sabina Umirzakova, et al.},
   journal={Journal of AI & Computer Vision},
   year={2025}
 }
-\`\`\`
+```
 
 ---
 
@@ -163,6 +163,3 @@ This project is released under the **MIT License**.
 ---
 
 🚀 **Let's make wildfire detection smarter, faster, and more efficient!** 🔥  
-"""
-
-
