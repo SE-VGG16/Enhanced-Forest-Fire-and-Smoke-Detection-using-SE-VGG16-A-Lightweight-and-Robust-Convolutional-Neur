@@ -1,6 +1,5 @@
-# SE-VGG16-A-High-Performance-Model-for-Forest-Fire-and-Smoke-Detection
-SE-VGG16: A High-Performance Model for Forest Fire and Smoke Detection
-# 🔥 SE-VGG16: A High-Performance Model for Forest Fire and Smoke Detection  
+# 🔥 Enhanced Forest Fire and Smoke Detection using SE-VGG16: A Lightweight and Robust Convolutional Neural Network  
+Our paper is currently under submission, and detailed data information will be made public after its publication
 
 🚀 **SE-VGG16** is a deep learning model based on **VGG16**, enhanced with **Squeeze-and-Excitation Blocks (SEBlocks)** to improve feature representation. This model efficiently detects **forest fires and smoke** in **real-time** with high accuracy, making it ideal for **UAV monitoring, satellite analysis, and wildfire prevention systems**.  
 
@@ -9,7 +8,10 @@ SE-VGG16: A High-Performance Model for Forest Fire and Smoke Detection
 ✔️ **Lightweight & Efficient** – Optimized for **real-time detection** with UAVs and edge devices.  
 ✔️ **Enhanced Feature Extraction** – Uses **SEBlocks** to **improve sensitivity to fire features** in complex environments.  
 ✔️ **Robust to Challenging Conditions** – Works effectively **under dense vegetation, varying lighting, and smoke occlusion**.  
-
+📌 Key Features:
+🔹 SEBlocks integration for enhanced feature recalibration.
+🔹 Trained on a diverse Kaggle dataset of fire and non-fire images.
+🔹 Supports real-time inference on resource-constrained devices.
 ---
 
 ## 📂 Repository Structure  
@@ -28,4 +30,8 @@ SE-VGG16: A High-Performance Model for Forest Fire and Smoke Detection
 ```bash
 git clone https://github.com/SE-VGG16/SE-VGG16-A-High-Performance-Model-for-Forest-Fire-and-Smoke-Detection.git
 cd SE-VGG16
+2️⃣ **Install dependencies:**
+```bash
+pip install -r requirements.txt
+
 
