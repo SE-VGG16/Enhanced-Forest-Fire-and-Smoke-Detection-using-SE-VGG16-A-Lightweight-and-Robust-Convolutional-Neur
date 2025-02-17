@@ -131,7 +131,7 @@ If you use **SE-VGG16** in your research, please cite:
 📄 **Enhanced Forest Fire and Smoke Detection using SE-VGG16**  
 ```bibtex
 @article{SE-VGG16,
-  title={Enhanced Forest Fire and Smoke Detection using SE-VGG16},
+  title={Enhanced Forest Fire and Smoke Detection using SE-VGG16: A Lightweight and Robust Convolutional Neural Network},
   author={Akmalbek Abdusalomov, Sabina Umirzakova, et al.},
   journal={The Visual Computer },
   year={2025}
