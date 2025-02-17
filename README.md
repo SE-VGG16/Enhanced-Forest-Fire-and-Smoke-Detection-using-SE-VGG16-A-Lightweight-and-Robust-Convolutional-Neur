@@ -133,7 +133,7 @@ If you use **SE-VGG16** in your research, please cite:
 @article{SE-VGG16,
   title={Enhanced Forest Fire and Smoke Detection using SE-VGG16},
   author={Akmalbek Abdusalomov, Sabina Umirzakova, et al.},
-  journal={Journal of AI & Computer Vision},
+  journal={The Visual Computer },
   year={2025}
 }
 ```
