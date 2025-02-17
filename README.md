@@ -1,6 +1,6 @@
 # 🔥 Enhanced Forest Fire and Smoke Detection using SE-VGG16: A Lightweight and Robust Convolutional Neural Network  
 
-## 📢 Our paper is currently under submission, and detailed data information will be made public after its publication  
+## 📢 Our paper is currently under submission in the journal of The Visual Computer, and detailed data information will be made public after its publication  
 
 ---
 
